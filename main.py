@@ -50,7 +50,7 @@ def main():
     # Post version 12 this will no longer be necessary
 
     port = int(os.environ["PORT"])
-    token = os.environ["TOKEN"]
+    token = os.environ["TELEGRAM_TOKEN"]
 
     updater = Updater(token, use_context=True)
 
