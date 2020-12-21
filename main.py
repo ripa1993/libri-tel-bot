@@ -12,7 +12,11 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-allowed_ids = [-278919632, 110247988]
+allowed_ids = [
+    -278919632,  # nerone
+    110247988,  # simo
+    186552682  # franci
+]
 
 
 def allowed_chat(update: Update) -> bool:
