@@ -7,7 +7,7 @@ result_selector = '#td-outer-wrap > div.td-main-content-wrap.td-container-wrap >
 download_selector = 'div.td-post-content > #bf11 > strong > #url-shorthis'
 download_xpath = '/html/body/div[7]/div[2]/div/div[2]/div[1]/div/article/div[3]/div[4]/p[7]/strong/a/button'
 page_postfix = "?pag=2"
-link_regex = 'https:\\/\\/libri\\.tel\\/wp-content\\/plugins\\/p-create-auto-post\\/index\\.php\\?url=([\\w\\d\\S]+)\\"'
+link_regex = 'wp-content\\/plugins\\/p-create-auto-post\\/index\\.php\\?url=([\\w\\d\\S]+)\\"'
 
 
 class SearchResult:
