@@ -39,7 +39,7 @@ def get_download_link(s: SearchResult):
 def search(text):
     session = HTMLSession()
     search = urllib.parse.quote(text)
-    search_results = session.get('https://libri.tel/?s=' + search)
+    search_results = session.get('https://libri.link/?s=' + search)
     return [build_search_result(r) for r in search_results.html.find(result_selector)]
 
 
